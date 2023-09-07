@@ -33,15 +33,20 @@ for (int start = 20; start>=0; start--){
   String counterAsString="";
         switch(start){
             case 3: counterAsString = "three";
+                    println(counterAsString);
                    break;
             case 2: counterAsString = "Two";
+                    println(counterAsString);
                    break;
             case 1: counterAsString = "One";
+                    println(counterAsString);
                    break;          
             default: 
         }
-  println(start);
-  println(counterAsString);
+  if(start<=20 && start>3){
+    println(start);
+  }
+  
   if (start==0){
    println("Take Off!"); 
   }
