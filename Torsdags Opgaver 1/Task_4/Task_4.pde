@@ -40,15 +40,14 @@ for (int start = 20; start>=0; start--){
                    break;
             case 1: counterAsString = "One";
                     println(counterAsString);
+                   break;    
+            case 0: counterAsString = "Take Off!";
+                    println(counterAsString);
                    break;          
             default: 
         }
   if(start<=20 && start>3){
     println(start);
-  }
-  
-  if (start==0){
-   println("Take Off!"); 
   }
 }
 

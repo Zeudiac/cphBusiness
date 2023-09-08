@@ -1,5 +1,6 @@
-int colors = 255;
-
+int colorRed = color(255,0,0);
+int colorYellow = color(255,255,0);
+int colorGreen = color(0,255,0);
 
 void setup() {
   size(300, 800);
@@ -10,7 +11,7 @@ void setup() {
 void draw() {
   //ellipse1
   if(frameCount>0 && frameCount<200 || frameCount>500){
-   fill(colors,0,0); 
+   fill(colorRed); 
   }
   else{
    fill(0); 
@@ -19,7 +20,7 @@ void draw() {
  
  //ellipse2
   if(frameCount>100 && frameCount<200 || frameCount>400 && frameCount<500){
-   fill(colors,colors,0); 
+   fill(colorYellow); 
   }
   else{
    fill(0); 
@@ -29,7 +30,7 @@ void draw() {
   //ellipse3
   fill(0);
   if(frameCount>200 && frameCount<400){
-   fill(0,colors,0); 
+   fill(colorGreen); 
   }
   ellipse(width/2, 650, 200, 200);
   if (frameCount>600){
