@@ -10,16 +10,14 @@ void setup() {
 void methodOne()
 {
   int i = 1000; // You are not allowed to change this line. 
-  
   int max = 10;
-  String output="";
+  
+  
   if (i > max)
   {
-    output = "i is greater than "+max+".";   
+    String output = "i is greater than "+max+".";   
+    println(output);
   }
-  
-  println(output);
-   
 }
 
 /* 
@@ -31,29 +29,23 @@ void methodTwo()
   
   int weekDay = 0; // 0 = Monday, 6 = Sunday. 
   boolean weekend = false;
-  
+  String weekDayStr="";
   switch(weekDay) {
-  case 0: 
-    println("Monday");  
-    break;
-  case 1: 
-    println("Tuesday");  
-    break;
-  case 2: 
-    println("Wednesday");  
-    break;
-  case 3: 
-    println("Thursday");  
-    break;
-  case 4: 
-    println("Friday");  
-    break;
-  case 5: 
-    println("Saturday");  
-    break;
-  case 6: 
-    println("Sunday");  
-    break;
+  case 0: weekDayStr="Monday";  
+  break;
+  case 1: weekDayStr="Tuesday";
+  break;
+  case 2: weekDayStr="Wednesday";
+  break;
+  case 3: weekDayStr="Thursday";
+  break;
+  case 4: weekDayStr="Friday";
+  break;
+  case 5: weekDayStr="Saturday";
+  break;
+  case 6: weekDayStr="Sunday";
+  break;
+  default: println("Not a valid weekday");
   }
   
   if (weekDay < 5)
@@ -64,8 +56,8 @@ void methodTwo()
   {
     weekend = true;
   }
-  
-  if (weekend==true){
+  println(weekDayStr);
+  if (weekend){
    println("It is weekend");
   }
   else{
