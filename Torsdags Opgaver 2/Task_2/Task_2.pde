@@ -3,11 +3,13 @@ void setup(){
   //2.b
   println(addition(8,2));
   println();
+  
   //2.c
-  println(uppercase("make it capital"));
+  String uppercaseReturned = uppercase("make it capital");
+  println(uppercaseReturned);
   println();
   
-  println(ifUpperCase("ja"));
+  println(checkUpperCase("ohoh"));
 }
 
 //2.b
@@ -21,11 +23,8 @@ String uppercase(String upper){
 }
 
 //2.d
-boolean ifUpperCase(String upOrNah){
-  if(Character.isUpperCase(upOrNah.charAt(0))){
-   return true;
-  }
-  else{
-   return false; 
-  }
+boolean checkUpperCase(String upOrNah){
+  
+   return Character.isUpperCase(upOrNah.charAt(0));
+
 }
