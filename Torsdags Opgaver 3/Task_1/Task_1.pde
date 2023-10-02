@@ -6,6 +6,7 @@ void setup(){
 }
 
 int getRandom(){
- int randomNr=(int)random(5); 
+ int randomNr=(int)random(arr.length);
+ println(randomNr);
  return arr[randomNr];
 }

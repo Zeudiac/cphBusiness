@@ -6,5 +6,5 @@ int counter = 1;
 for(String i: artists){
   println(counter+". "+i+": "+hits[arrCounter]);
   counter++;
-  
+  arrCounter++;
 }

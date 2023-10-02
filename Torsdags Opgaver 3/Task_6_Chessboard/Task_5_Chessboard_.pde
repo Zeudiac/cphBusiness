@@ -8,16 +8,13 @@ void setup() {
   for (int i=0; i<8; i++) {
 
     for (int j=0; j<8; j++) {
-
-      if (i%2+j%2==0) {
-        board[i][j]=0;
-      } 
-      else if(i%2+j%2==1){
+      
+      if((i+j)%2==1){
         board[i][j]=1;
       }
-      print(board[i][j]);
-      
+      print(board[i][j]);    
     }
+    
     println();
   }
   drawBoard();
@@ -34,8 +31,8 @@ void drawBoard(){
         fill(0);
       }
       rect(x,y,sideLength,sideLength);
-      x = x+sideLength;
+      x += sideLength;
       }
-      y=y+sideLength;
+      y+=sideLength;
   }
 }
