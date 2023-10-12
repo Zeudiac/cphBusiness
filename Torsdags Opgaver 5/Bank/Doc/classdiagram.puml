@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Account
+class Bank
+class Main
+class PenguinAccount
+class CreditAccount
+class VIPAccount
+
+'relationer
+Account <|-- PenguinAccount : is-a
+Account <|-- CreditAccount : is-a
+Account <|-- VIPAccount : is-a
+Bank *-- Account : has-a
+
+'attributter og metoder
+class Account {
+-int ID
+-String name
+-double balance
++double getBalance()
++void deposit(double amount)
++boolean withDraw(double amount)
+}
+
+class Bank{
++void addAccount(double defaultBalance,int type)
+}
+
+class CreditAccount{
++boolean withDraw(double amount)
++void setMax(double amount)
+-double maxAmount
+}
+
+class PenguinAccount{
++boolean withDraw(double amount)
+}
+
+class VIPAccount{
++void deposit(double amount)
+}
+
+@enduml
