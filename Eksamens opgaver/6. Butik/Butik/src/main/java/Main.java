@@ -14,7 +14,7 @@ public class Main {
         Order o1 = new Order();
         //adding orders to o1 (orderlines Arraylist)
         o1.addOrderLine(oL1);
-        o1.addOrderLine(oL2);
+        o1.addOrderLine(oL2); 
         o1.addOrderLine(oL3);
         o1.addOrderLine(oL4);
 

@@ -5,13 +5,13 @@ public class Main {
 
         Random rand = new Random();
 
-        int maxValue = 2;
+        int maxValue = 100;
         int numberToGuess;
 
         int hPGuess;
         int cPGuess;
 
-        numberToGuess = rand.nextInt(maxValue);
+        numberToGuess = rand.nextInt(maxValue)+1;
 
         HumanPlayer hP = new HumanPlayer();
         ComputerPlayer cP = new ComputerPlayer();
@@ -28,6 +28,5 @@ public class Main {
         else if(cPGuess!=numberToGuess && hPGuess!=numberToGuess){
             System.out.println("No one guessed the number...");
         }
-
     }
 }

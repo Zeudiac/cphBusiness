@@ -5,39 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adb273cc-3bfd-4590-b611-a57f22069be8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../1. Interaktiv quiz/Interaktiv quiz/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1. Interaktiv quiz/Interaktiv quiz/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1. Interaktiv quiz/Interaktiv quiz/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1. Interaktiv quiz/Interaktiv quiz/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1. Interaktiv quiz/Interaktiv quiz/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1. Interaktiv quiz/Interaktiv quiz/src/main/java/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1. Interaktiv quiz/Interaktiv quiz/src/main/java/QuizElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2. Lønberegning/Loenberegning/src/main/java/CommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2. Lønberegning/Loenberegning/src/main/java/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2. Lønberegning/Loenberegning/src/main/java/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2. Lønberegning/Loenberegning/src/main/java/MonthlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3. Kortspil/Kortspil/src/main/java/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3. Kortspil/Kortspil/src/main/java/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3. Kortspil/Kortspil/src/main/java/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5. To slags spillere/ToSlagsSpillere/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5. To slags spillere/ToSlagsSpillere/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5. To slags spillere/ToSlagsSpillere/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5. To slags spillere/ToSlagsSpillere/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5. To slags spillere/ToSlagsSpillere/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5. To slags spillere/ToSlagsSpillere/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5. To slags spillere/ToSlagsSpillere/src/main/java/ComputerPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5. To slags spillere/ToSlagsSpillere/src/main/java/HumanPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5. To slags spillere/ToSlagsSpillere/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5. To slags spillere/ToSlagsSpillere/src/main/java/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OrderLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../8. Stop madspild/Stop Madspild/src/main/java/FoodWaste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Stop madspild/Stop Madspild/src/main/java/FoodWaste.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8. Stop madspild/Stop Madspild/src/main/java/FoodWaste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Stop madspild/Stop Madspild/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8. Stop madspild/Stop Madspild/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +62,7 @@
       <updated>1703874811892</updated>
       <workItem from="1703874812975" duration="781000" />
       <workItem from="1704216123049" duration="4683000" />
+      <workItem from="1704285152895" duration="1407000" />
     </task>
     <servers />
   </component>
