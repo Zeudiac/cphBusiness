@@ -36,21 +36,18 @@ public class FlowerShop {
         displayFlowers();
         //1st flower
         System.out.println("Please pick three flowers from the list(1-10):");
-        flower1 = scan.nextInt();
-        addFlowerPrice(flower1);
-        System.out.println("1/3: "+flowers.get(flower1-1));
+        flower1 = chooseFlower();
+
         //2nd flower
-        flower2 = scan.nextInt();
-        addFlowerPrice(flower2);
-        System.out.println("2/3: "+flowers.get(flower2-1));
+        flower2 = chooseFlower();
+
         //3rd flower
-        flower3 = scan.nextInt();
-        addFlowerPrice(flower3);
-        System.out.println("3/3: "+flowers.get(flower3-1));
+        flower3 = chooseFlower();
+
         //Asking user if the flowers are correct
         System.out.println("\nYou Choose the following flowers:\n"+flowers.get(flower1-1)+"\n"+flowers.get(flower2-1)+"\n"+flowers.get(flower3-1));
         System.out.print("Is this correct? (y/n): ");
-        correctFlowers = scan.next().charAt(0);
+        correctFlowers = scan.next().toLowerCase().charAt(0);
         if(correctFlowers!='y'){
             System.out.println("Please make sure to pick the correct flowers: ");
             total=0;
@@ -58,8 +55,8 @@ public class FlowerShop {
         }
         //bouquet?
         System.out.print("Do you wish for your flowers to be bound in a bouquet? (y/n): ");
-        bouquet = scan.next().charAt(0);
-        if(bouquet=='y'||bouquet=='Y'){
+        bouquet = scan.next().toLowerCase().charAt(0);
+        if(bouquet=='y'){
             total+=50;
         }
         System.out.println("Your total cost: "+total+",-");
@@ -77,5 +74,21 @@ public class FlowerShop {
         else{
             total+=80;
         }
+    }
+
+    public int chooseFlower() {
+        int flower=0;
+        while(flower>10||flower<1) {
+            System.out.println("Pick a flower by entering the flowers given number, if a flower is correctly entered - it will be shown: ");
+            String input = scan.nextLine();
+            try {
+                flower = Integer.parseInt(input);
+            } catch (NumberFormatException e) {
+                System.out.println("Please select a valid number..");
+            }
+        }
+        addFlowerPrice(flower);
+        System.out.println("Chosen flower: " + flowers.get(flower - 1));
+        return flower;
     }
 }

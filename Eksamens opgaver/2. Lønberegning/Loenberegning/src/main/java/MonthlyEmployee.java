@@ -1,5 +1,6 @@
 public class MonthlyEmployee extends Employee{
     private double salary;
+    private int bonus;
 
     public MonthlyEmployee(double salary){
         this.salary=salary;
@@ -7,6 +8,7 @@ public class MonthlyEmployee extends Employee{
 
     @Override
     public double calculateSalary() {
-        return salary;
+        bonus+=3;
+        return super.calculateSalary();
     }
 }

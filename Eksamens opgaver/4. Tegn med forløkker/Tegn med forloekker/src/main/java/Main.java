@@ -1,3 +1,5 @@
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
@@ -20,15 +22,26 @@ public class Main {
         else {
             drawRightTriangle(inputNr);
         }
+        System.out.println();
+        drawSquare(inputNr);
+    }
+    public static void write(String s){
+        try {
+            FileWriter fW = new FileWriter("C:\\Users\\Malte\\OneDrive\\Dokumenter\\GitHub\\cphBusiness\\Eksamens opgaver\\4. Tegn med forløkker\\Tegn med forloekker\\src\\main\\Files\\file");
+                    fW.write("cyka");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
     }
     public static void drawLeftTriangle(int i) {
         for (int a = 0; a < i+1; a++) {
 
             for (int b = 0; b < a; b++) {
-                System.out.print("*");
+                write("*");
             }
 
-            System.out.println();
+            write(" ");
         }
         System.out.println();
     }
@@ -44,5 +57,13 @@ public class Main {
             System.out.println();
         }
 
+    }
+    public static void drawSquare(int i){
+        for (int a=0;a<i/2-(0.2*i);a++){
+            for (int b=0;b<i;b++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }

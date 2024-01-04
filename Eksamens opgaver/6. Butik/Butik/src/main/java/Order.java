@@ -16,10 +16,11 @@ public class Order {
 
     @Override
     public String toString() {
-        System.out.println("Orderlines: ");
+        String finite="Orderlines: \n";
+
         for (OrderLine o: orderlines){
-            System.out.println(o.getItem().getName());
+            finite+=o.getItem().getName()+" - Amount: "+o.getAmount()+"\n";
         }
-        return "Total price for all orderlines: "+getTotalPrice();
+        return finite+"Total price for all orderlines: "+getTotalPrice();
     }
 }

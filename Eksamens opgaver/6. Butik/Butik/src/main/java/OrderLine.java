@@ -18,4 +18,8 @@ public class OrderLine {
     public Item getItem() {
         return item;
     }
+
+    public int getAmount() {
+        return amount;
+    }
 }

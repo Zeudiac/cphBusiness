@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adb273cc-3bfd-4590-b611-a57f22069be8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. Køb blomster/KoebBlomster/src/main/java/FlowerShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../10. Køb blomster/KoebBlomster/src/main/java/FlowerShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. Køb blomster/KoebBlomster/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../10. Køb blomster/KoebBlomster/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Tegn med forløkker/Tegn med forloekker/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../4. Tegn med forløkker/Tegn med forloekker/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8. Stop madspild/Stop Madspild/src/main/java/FoodWaste.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8. Stop madspild/Stop Madspild/src/main/java/FoodWaste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8. Stop madspild/Stop Madspild/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8. Stop madspild/Stop Madspild/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,7 @@
       <workItem from="1703874812975" duration="781000" />
       <workItem from="1704216123049" duration="4683000" />
       <workItem from="1704285152895" duration="1407000" />
+      <workItem from="1704303971735" duration="287000" />
     </task>
     <servers />
   </component>
